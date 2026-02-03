@@ -13,12 +13,11 @@ public class Car extends Vehicle {
 
     @Override
     public void drive() {
-
         System.out.println("Car: Driving on 4 wheels. Origin: " + getCountry());
     }
 
     @Override
     public String getVehicleType() {
-        return "Car Class";
+        return "Car";
     }
 }

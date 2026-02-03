@@ -21,11 +21,11 @@ public class Vehicle {
     public int getYear() { return year; }
 
     public void startEngine() {
-        System.out.println("Generic engine starting...");
+        System.out.println("Engine starting...");
     }
 
     public void drive() {
-        System.out.println("Generic vehicle driving...");
+        System.out.println("Vehicle driving...");
     }
 
     public void refuel(double amount) {
@@ -34,6 +34,6 @@ public class Vehicle {
     }
 
     public String getVehicleType() {
-        return "Generic Vehicle";
+        return "Vehicle";
     }
 }

@@ -1,8 +1,10 @@
 package com.talent.java.day5.homework_1;
 
 public class Student extends Person {
+    //fields
     private int gradeLevel;
 
+    //constructor
     public Student(String name, int age, int gradeLevel) {
         super(name, age);
         this.gradeLevel = gradeLevel;
