@@ -18,9 +18,18 @@ public class Book {
         return this.price;
     }
 
+//    @Override
+//    public String toString() {
+//        return String.format("Title: %-15s | Author: %-10s | Price: $%.2f",
+//                title, author, price);
+//    }
+
     @Override
     public String toString() {
-        return String.format("Title: %-15s | Author: %-10s | Price: $%.2f",
-                title, author, price);
+        return "Book{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", price=" + price +
+                '}';
     }
 }

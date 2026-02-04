@@ -11,6 +11,7 @@ public class Main {
                 new Student("Hsu ", 15, 9)
         };
 
+
         for (Person p : people) {
             System.out.print("[" + p.getRole() + "] ");
             p.introduce();
