@@ -16,6 +16,9 @@ public class Main {
         studentMarks.put("Zaw Zaw", 88);
 
         System.out.println("--- Student Records ---");
+
+//      Iterator<Map.Entry<KeyType, ValueType>> it = hashMapName.entrySet().iterator();
+
         Iterator<Map.Entry<String, Integer>> iterator = studentMarks.entrySet().iterator();
         while (iterator.hasNext()) {
             Map.Entry<String, Integer> entry = iterator.next();
